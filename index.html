@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="SendIT Courier Service Official Web" />
+    <meta
+      name="keywords"
+      content="SendIT, Courier, Service, Tracking, Pricing"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bruno El Daroux" />
+    <title>SendIT</title>
+    <link rel="icon" href="img/sendit.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="header-title-line">
+        <h1>SendIT</h1>
+        <button class="menu-button">
+          <div class="menu-icon"></div>
+        </button>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="pages/order.html">Create Parcel Delivery Order</a></li>
+          <li><a href="pages/destination.html">Change Destination</a></li>
+          <li><a href="pages/details.html">Delivery Details</a></li>
+          <li><a href="#">Track Location</a></li>
+          <li><a href="#">Notifications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <h2>Sign up to send your courier</h2>
+
+      <div class="form-group">
+        <label for="email" id="email-label" for="email">Email address:</label
+        ><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="name@domain.com"
+          required
+        />
+      </div>
+      <div>
+        <button>Next</button>
+      </div>
+      <hr class="line" />
+
+      <div class="login">
+        <a href="#">Sign up with Google</a>
+      </div>
+      <div class="login">
+        <a href="#">Sign up with Facebook</a>
+      </div>
+      <div class="login">
+        <a href="#">Sign up with Apple</a>
+      </div>
+      <hr class="line" />
+
+      <p>Already have an account? <a href="#">Log in here</a>.</p>
+    </main>
+
+    <footer>
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">SendIT</span>
+      </p>
+    </footer>
+  </body>
+</html>

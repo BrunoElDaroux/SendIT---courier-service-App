@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Details</title>
+    <link rel="icon" href="../img/sendit.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/main.js" defer></script>
+  </head>
+
+  <body>
+    <body>
+      <header>
+        <section class="header-title-line">
+          <h1>SendIT</h1>
+          <button class="menu-button">
+            <div class="menu-icon"></div>
+          </button>
+        </section>
+  
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="../pages/order.html">Create Parcel Delivery Order</a></li>
+            <li><a href="../pages/destination.html">Change Destination</a></li>
+            <li><a href="#">Track Location</a></li>
+            <li><a href="#">Notifications</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h2>Fill your Courier Details in the form below:</h2>
+
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Your Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div><br>
+
+          <div class="form-group">
+            <label id="name-label" for="name">Courier Destination:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Destination name"
+              required
+            />
+          </div><br>
+
+          <div class="form-group">
+            <label id="name-label" for="name">Receiver Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Receiver name"
+              required
+            />
+          </div><br>
+
+          <div class="form-group">
+            <label id="name-label" for="name">Date:</label>
+            <input
+              type="date"
+              name="name"
+              id="name"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <p>Delivery details:</p>
+  
+            <textarea rows="6" cols="50"
+              id="delivery-details"
+              class="input-textarea"
+              name="delivery-details"
+              placeholder="Add your delivery details..."
+            ></textarea>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <p>
+          <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+          <span class="nowrap">SendIT</span>
+        </p>
+      </footer>
+  </body>
+</html>
